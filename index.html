@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+    
+        .profile_pic {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 150px;
+        
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+             background-color: blanchedalmond; 
+              
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li> <a href="#resume">Resume</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section id="about">
+            <h1>About Me</h1>
+            <h2>Hi, I'm Toluwalase Badejo</h2>
+            <img src="profile_pic.webp" alt="" class="profile_pic">
+            <p>
+                I'm an aspriring 
+                Fullstack developer with a desire to provide fintech
+                related solutions, I hope to achieve this by mastering
+                the Mern stack, and having comprehensive knowledge on backend
+                languages like GO, JAVA, RUST, with Java, a programming language which i'm currently versatile in.
+            </p>
+        </section>
+
+        <section id="work">
+            <h2>My Works</h2>
+            <p>
+                I am well versed in developing 
+                high-performance applications using the MERN stack, 
+                Java Spring Boot, and Go. 
+                My projects focus on real-time transactions, 
+                secure authentication, 
+                and system scalability.
+                I also have an interest in system design and architecture.
+            </p>
+        </section>
+
+        <section id="resume">
+            <h2>My resume</h2>
+            <p>
+                You can download my resume <a href="Tolu's Resume hr.pdf" download>here.</a>
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact me</h2>
+            <form >
+                <label for="name">Name:</label>
+                <input type="text" name="Client_name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email"  name="Client_email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+    </main>
+    
+
+   <footer></footer>
+</body>
+</html>
