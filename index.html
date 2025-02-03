@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 
     <style>
-    
         .profile_pic {
             width: 300px;
             height: 300px;
             object-fit: cover;
             border-radius: 150px;
-        
+            
+
         }
-        body{
+
+        body {
             font-family: Arial, Helvetica, sans-serif;
-             background-color: blanchedalmond; 
-              
+            background-color: blanchedalmond;
         }
-        </style>
+        footer{
+            text-align: center;
+
+            background-color: ghostwhite;
+            height: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,7 +48,7 @@
             <h2>Hi, I'm Toluwalase Badejo</h2>
             <img src="profile_pic.webp" alt="" class="profile_pic">
             <p>
-                I'm an aspriring 
+                I'm an aspriring
                 Fullstack developer with a desire to provide fintech
                 related solutions, I hope to achieve this by mastering
                 the Mern stack, and having comprehensive knowledge on backend
@@ -52,14 +59,20 @@
         <section id="work">
             <h2>My Works</h2>
             <p>
-                I am well versed in developing 
-                high-performance applications using the MERN stack, 
-                Java Spring Boot, and Go. 
-                My projects focus on real-time transactions, 
-                secure authentication, 
+                I am well versed in developing
+                high-performance applications using the MERN stack,
+                Java Spring Boot, and Go.
+                My projects focus on real-time transactions,
+                secure authentication,
                 and system scalability.
                 I also have an interest in system design and architecture.
             </p>
+            <p>
+                You can catch me listening to my favourite music on Apple.
+            </p>
+            <audio controls>
+                <source src="Central_Cee_ft_Lil_Bro_-_Lil_Bro.mp3" type="audio/mp3">
+            </audio>
         </section>
 
         <section id="resume">
@@ -71,23 +84,34 @@
 
         <section id="contact">
             <h2>Contact me</h2>
-            <form >
-                <label for="name">Name:</label>
-                <input type="text" name="Client_name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email"  name="Client_email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="Client_name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="Client_email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="20" required></textarea>
+                </div>
+
                 <button type="submit">Send Message</button>
             </form>
 
         </section>
     </main>
-    
 
-   <footer></footer>
+    <footer>
+        <p>
+            &#169;
+            Created with love and passion by Tolu &#128521; 
+        </p>
+    </footer>
 </body>
+
 </html>
